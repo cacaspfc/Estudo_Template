@@ -340,12 +340,18 @@ footer{
 
 @media only screen and (max-width: 525px){
     nav{
-        position: fixed;
+        width: 100%;
         background-color: #ffffffa2;
+        position: fixed;
+
     }
+    .button{
+        display: none;
+    }
+    
     nav li a{
         color: black;
-        font-size: 20px;
+        font-size: 0.8em;
     }
     
     .text-banner p{
@@ -353,5 +359,12 @@ footer{
     }
     .text-banner h1{
         font-size: 1em;        
+    }
+
+    .two{
+        display: none;
+    }
+    .container{
+        display: none;
     }
 }
